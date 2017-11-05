@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C5A76A1C-9360-4CFB-BEBD-5E1F3D09368C}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{52E66307-BA0A-4486-A380-FBBB1A532482}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Assignment4</RootNamespace>
-    <AssemblyName>Assignment4</AssemblyName>
+    <RootNamespace>Asignment6and7</RootNamespace>
+    <AssemblyName>Asignment6and7</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -29,6 +29,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Asignment6and7.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -40,15 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HomeworkLinqQueries.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="University.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Assignment1\Assignment1.csproj">
-      <Project>{5e01f763-47c1-4702-bce9-02373c454032}</Project>
-      <Name>Assignment1</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

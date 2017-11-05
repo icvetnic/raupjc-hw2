@@ -1,4 +1,6 @@
-﻿namespace Assignment4
+﻿using Assignment1;
+
+namespace Assignment4
 {
     public class University
     {
